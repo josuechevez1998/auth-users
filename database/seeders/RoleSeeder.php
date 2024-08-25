@@ -16,7 +16,7 @@ class RoleSeeder extends Seeder
     {
         $rows = [
             [
-                'name' => 'System Admin', 
+                'name' => 'System', 
                 'guard_name' => 'web'
             ],
             [
