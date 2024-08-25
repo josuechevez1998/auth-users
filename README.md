@@ -33,6 +33,31 @@ Proyecto de autenticacion de usuario. Posee un panel administrativo de roles y p
     Necesita usar mysql server para generar y luego cambiar la conexion del los modelos.
   </small>
 
+## Usuarios
+Para ingresar al sistema debe de ejecutar los seeder's al momento de migrar o actualizar las migracion para ello te dejo los comandos. Puedes
+editar el usuario ingresando a la carpeta seeder que nos proporciona Laravel
+
+```
+  php artisan migrate --seed
+```
+
+```
+  php artisan migrate:refresh --seed
+```
+
+**Para los que usan sail**
+
+Crear un alias o directamente usa ./vendor/bin/sail 
+
+```
+  tu_alias php artisan migrate --seed
+```
+
+```
+  tu_alias php artisan migrate:refresh --seed
+```
+
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
