@@ -17,8 +17,8 @@ class UserSeeder extends Seeder
         $rows = [
             [
                 'name' => 'Edutech User',
-                'email' => 'josuechevez974@gmail.com',
-                'password' => Hash::make('chevez974*'),
+                'email' => 'edutech@edutechsolutions.com',
+                'password' => Hash::make('edutech123*'),
             ],
         ];
 
