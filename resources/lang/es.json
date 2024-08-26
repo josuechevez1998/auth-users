@@ -38,6 +38,10 @@
     "Updated At": "Actualizado En",
     "Email": "Correo",
     "Add new":"Agregar Nuevo",
+    "Add a new":"Agregar un nuevo/a",
     "Guard Name":"Nombre de Guardia",
-    "A list of all the" :"Una lista de todos los/las"
+    "A list of all the" :"Una lista de todos los/las",
+    "Submit":"Enviar",
+    "Role":"Rol",
+    "Roles":"Roles"
 }
