@@ -43,5 +43,7 @@
     "A list of all the" :"Una lista de todos los/las",
     "Submit":"Enviar",
     "Role":"Rol",
-    "Roles":"Roles"
+    "Roles":"Roles",
+    "Dashboard":"Panel de Control",
+    "You're logged in!":"¡Has iniciado sesión!"
 }
