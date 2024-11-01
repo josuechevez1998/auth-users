@@ -15,7 +15,7 @@ class Index extends Component
     #[Layout('layouts.app')]
     public function render(): View
     {
-        $roles = Role::paginate();
+        $roles = Role::paginate(10);
 
         return view('livewire.role.index', compact('roles'))
             ->with('i', $this->getPage() * $roles->perPage());

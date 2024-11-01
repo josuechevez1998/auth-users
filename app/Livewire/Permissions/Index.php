@@ -15,7 +15,7 @@ class Index extends Component
     #[Layout('layouts.app')]
     public function render(): View
     {
-        $permissions = Permission::paginate();
+        $permissions = Permission::paginate(10);
 
         return view('livewire.permission.index', compact('permissions'))
             ->with('i', $this->getPage() * $permissions->perPage());
